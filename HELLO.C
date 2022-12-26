@@ -181,13 +181,13 @@ scanf("%f",&n2);
   }
 
 
-gotoxy(25,15);
+gotoxy(25,14);
 printf("Return to main menu? Yes[y], No[n]: ");
 scanf("%s",&choice_char);
 
 while(choice_char != 'y' && choice_char != 'n'&&choice_char!='Y'&&choice_char!='N'){
 
-   gotoxy(30,14);
+   gotoxy(30,15);
    printf("Invalid input! Try again: ");
    scanf("%s",&choice_char);
 }
@@ -548,7 +548,7 @@ scanf("%s",&choice_char);
 
 while(choice_char!='y'&&choice_char!='Y'&&choice_char!='n'&&choice_char!='N')
  {
-  gotoxy(30,14);
+  gotoxy(30,21);
   printf("Invalid input! Try again: ");
   fflush(stdin);
   scanf("%s",&choice_char);
