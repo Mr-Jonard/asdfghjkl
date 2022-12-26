@@ -687,7 +687,7 @@ scanf("%s",&con);
 
 while(con!='y'&&con!='Y'&&con!='n'&&con!='N')
 {
- gotoxy(40,14);
+ gotoxy(27,23);
  printf("Invalid input! Try again: ");
  fflush(stdin);
  scanf("%s",&con);
